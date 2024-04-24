@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    border-radius: 30%;
+    width: 40%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 30px;
+}
+
+.escola{
+    background-image: linear-gradient(#000000,#00ff2a);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.escola-div-conteudo{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 25px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.escola-titulo{
+    padding: 50px 10;
+    text-align: center;
+}
+
+.escola-texto-um{
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.escola-imagem{
+    border-radius: 30%;
+    width: 50%;
+}
+
+.estudante{
+    padding: 24px 0;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    margin: 0 16px;
+    font-size: 30px;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 10% 25% 30% 25% 10%;
+}
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
+
+.perssonagens{
+    background-image: linear-gradient(#00ff2a,#00ff2a);
+}
+
+.personagem-texto-um{
+    color: rgb(0, 0, 0);
+    padding: 1em 1em 1em 1em;
+}
+
+.estudante-nome{
+    color: rgb(0, 0, 0);
+}
+
+.texto-inicial{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.episodios{
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-image: linear-gradient(#00ff2a,#000000);
+    text-align: center;
+}
+
+.button1 {
+    height: 100px;
+    padding: 30px 10px;
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    border: 2px solid #00ff2a;
+  }
+  
+  .button1:hover {
+    background-color: #00ff2a;
+    color: rgb(0, 0, 0);
+  }
+  
+  .button2 {
+    height: 100px;
+    padding: 20px 10px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000000;
+  }
+  
+  .button2:hover {
+    background-color: #000000;
+    color: white;
+  }
+
+.Eps-titulo{
+  text-align: center;
+  padding: 50px 0;
+  color: rgb(255, 255, 255);
+  margin: 0 16px;
+  font-size: 30px;
+}
+
+.Eps-imagem{
+    border-radius: 30%;
+    width: 50px;
+}
+
+.Eps-sub-titulo{
+    color: rgb(255, 255, 255);
+}
